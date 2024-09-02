@@ -92,7 +92,7 @@ app.all("*", (req, res, next) => {
 });
 
 mongoose
-  .connect("mongodb://localhost:27017/aha")
+  .connect("mongodb+srv://webdevelopersrinu9:sAzVbS2Tq9TcphYT@cluster0.4hn8y.mongodb.net/aha")
   .then(() => console.log("db connection is success"))
   .catch(() =>
     console.log("db connection is not success some error is occurred!")
